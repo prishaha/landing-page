@@ -1,3 +1,7 @@
 .header, .main, .footer {
     background: #1f2937;
 }
+
+.header-text, .main-title {
+    color: #f9faf8;
+}
