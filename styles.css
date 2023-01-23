@@ -17,10 +17,6 @@ body {
     color: #f9faf8;
 }
 
-.main-title {
-    font-size: 48px;
-    font-weight: bolder;
-}
 
 .header {
     display: flex;
@@ -49,6 +45,35 @@ a {
     color: #e5e7eb;
 }
 
+
+.header-links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main-words {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.main-title {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+
+.main-text {
+    font-size: 18px;
+
+}
+
 .main-image {
     display: flex;
     justify-content: flex-end;
@@ -56,18 +81,33 @@ a {
     height: 200px;
 }
 
-.header-links {
-    display: flex;
-    justify-content: flex-end;
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+  }
+
+.share-button {
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    flex: none;
 }
 
-.main-words {
-    display: flex;
-    flex-direction: column;
+.info {
+    text-align: center;
+    padding: 40px;
 }
 
-.main {
+.info-title {
+    font-size: 36px;
+    font-weight: bolder;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.info-points {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
 }
