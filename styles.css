@@ -25,7 +25,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 50px;
 
 }
 
@@ -61,6 +60,7 @@ a {
     flex-direction: row;
     justify-content: center;
     gap: 30px;
+    padding: 40px;
 
 }
 
@@ -93,10 +93,15 @@ button {
     border-radius: 8px;
   }
 
+
 .share-button {
     background: royalblue;
     border: 1px solid royalblue;
     color: white;
+    justify-content: flex-end;
+    align-self: flex-start;
+
+    
 }
 
 .info-section {
@@ -172,11 +177,11 @@ button {
     background: royalblue;
     max-height: 200px;
     display: flex;
+    justify-content: space-evenly;
     color: white;
-    display: flex;
     flex-direction: row;
     gap: 10px;
-    padding: 50px;    
+    padding: 40px;    
     margin-top: 30px;
     margin-bottom: 40px;
     border-radius: 8px;
