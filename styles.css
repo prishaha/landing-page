@@ -6,11 +6,14 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Roboto, sans-serif;
+    flex-grow: 1;
 }
 
 .header, .main, .footer {
     background: #1f2937;
     padding: 40px;
+    display: flex;
+    flex-grow: 1;
 }
 
 .header-text, .main-words {
@@ -61,6 +64,7 @@ a {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    flex-shrink: 1;
 }
 
 .main-title {
@@ -90,12 +94,6 @@ button {
     background: royalblue;
     border: 1px solid royalblue;
     color: white;
-    flex: none;
-}
-
-.info {
-    text-align: center;
-    padding: 40px;
 }
 
 .info-title {
@@ -103,11 +101,53 @@ button {
     font-weight: bolder;
     display: flex;
     justify-content: center;
-    margin-bottom: 32px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.info {
+    display: flex;
+    text-align: center;
+    padding: 40px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    gap: 40px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+
 }
 
 .info-points {
     display: flex;
     justify-content: center;
-    gap: 52px;
+    flex-direction: column;
+    gap: 40px;
+    width: 150px;
+    height: 150px;
+
 }
+
+.info-desc {
+    max-width: 1000px;
+  }
+
+  .quote {
+    background: #e5e7eb;
+    color: #1f2937;
+    display: flex;
+    padding: 100px;
+    flex-direction: column;
+  }
+
+  .quote-text {
+    font-size: 26px;
+    font-style: italic;
+    font-weight: lighter;
+  }
+
+  .quote-author {
+    font-size: 18px;
+    font-weight: bold;
+  }
